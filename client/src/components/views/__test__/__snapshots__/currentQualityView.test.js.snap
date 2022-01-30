@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="container-fluid"
+>
+  <nav
+    className="navbar navbar-expand navbar-dark bg-dark fixed-top"
+  >
+    <a
+      className="navbar-brand"
+      href="#home"
+    >
+      Home
+    </a>
+    <div
+      className="mr-auto navbar-nav"
+      onKeyDown={[Function]}
+    >
+      <a
+        className="nav-link"
+        data-rb-event-key="#history"
+        href="#history"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+      >
+        History
+      </a>
+      <a
+        className="nav-link"
+        data-rb-event-key="#currentQuality"
+        href="#currentQuality"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+      >
+        Current Quality
+      </a>
+    </div>
+  </nav>
+  <div
+    className="jumbotron"
+    style={
+      Object {
+        "color": "black",
+        "marginTop": "70px",
+      }
+    }
+  >
+    <h1>
+      Office Environment Monitor!
+    </h1>
+    <p>
+      On this page you can find all of the current statistics being monitored.
+      <br />
+      If the number of people displayed on this page is incorrect you can change it to the proper amount below.
+      <br />
+    </p>
+  </div>
+  <div
+    className="container-fluid"
+    data-testid="air-quality-content"
+  >
+    <div
+      className="spinner-border"
+      data-testid="Spinner"
+      role="status"
+    />
+  </div>
+  <div
+    className="justify-content-center row"
+    style={
+      Object {
+        "margin": "15px",
+      }
+    }
+  >
+    <form
+      className=""
+      data-testid="form-component"
+      style={
+        Object {
+          "padding": "10px",
+        }
+      }
+    >
+      <div
+        className="spinner-border"
+        data-testid="Spinner"
+        role="status"
+      />
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="formBasicEmail"
+        >
+          Here you can insert the current number of people in the room
+        </label>
+        <input
+          className="form-control"
+          id="formBasicEmail"
+          onChange={[Function]}
+          placeholder="Enter number of people"
+          type="text"
+        />
+        <small
+          className="text-muted form-text"
+        >
+          Ensure that the number is correct.
+        </small>
+      </div>
+      <button
+        className="btn btn-primary"
+        data-testid="submit-button"
+        disabled={false}
+        onClick={[Function]}
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+`;
